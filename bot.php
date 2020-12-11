@@ -5,7 +5,7 @@ ini_set('error_log', 'php_errors.log');
 include "mysql.php";
 
 ob_start();
-$API_KEY = "1316374694:AAFmWamAV-hC0r6o4L33rTf6ft2uslVM6-0";
+$API_KEY = "TOKEN";
 
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
